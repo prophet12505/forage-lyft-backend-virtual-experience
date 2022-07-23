@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#F:/the forge/forage-lyft-starter-repo-main/car.py</OriginalElement>
+  <nodes>
+    <node x="883.5" y="879.0">battery_component.spindler_battery.Spindler_Battery</node>
+    <node x="2201.5" y="892.0">engine_component.sternman_engine.SternmanEngine</node>
+    <node x="50.5" y="879.0">car.Car</node>
+    <node x="0.0" y="700.0">serviceable.Serviceable</node>
+    <node x="2608.5" y="635.0">carfactory.CarFactory</node>
+    <node x="1542.5" y="879.0">engine_component.willoughby_engine.WilloughbyEngine</node>
+    <node x="272.5" y="879.0">battery_component.nubbin_battery.Nubbin_Battery</node>
+    <node x="763.965909090909" y="687.0">battery.Battery</node>
+    <node x="2812.5" y="879.0">engine_component.capulet_engine.CapuletEngine</node>
+    <node x="2405.5" y="687.0">engine.Engine</node>
+    <node x="1427.875" y="0.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="battery_component.nubbin_battery.Nubbin_Battery" target="battery.Battery">
+      <point x="0.0" y="-71.5" />
+      <point x="568.0" y="854.0" />
+      <point x="815.715909090909" y="854.0" />
+      <point x="-51.75" y="45.0" />
+    </edge>
+    <edge source="serviceable.Serviceable" target="object">
+      <point x="0.0" y="-32.0" />
+      <point x="151.5" y="605.0" />
+      <point x="1460.5" y="605.0" />
+      <point x="-97.875" y="292.5" />
+    </edge>
+    <edge source="battery.Battery" target="object">
+      <point x="0.0" y="-45.0" />
+      <point x="867.465909090909" y="615.0" />
+      <point x="1525.75" y="615.0" />
+      <point x="-32.625" y="292.5" />
+    </edge>
+    <edge source="engine_component.willoughby_engine.WilloughbyEngine" target="engine.Engine">
+      <point x="0.0" y="-71.5" />
+      <point x="1862.0" y="854.0" />
+      <point x="2436.0" y="854.0" />
+      <point x="-61.0" y="45.0" />
+    </edge>
+    <edge source="car.Car" target="serviceable.Serviceable">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="32.0" />
+    </edge>
+    <edge source="battery_component.spindler_battery.Spindler_Battery" target="battery.Battery">
+      <point x="0.0" y="-71.5" />
+      <point x="1203.0" y="854.0" />
+      <point x="919.215909090909" y="854.0" />
+      <point x="51.75" y="45.0" />
+    </edge>
+    <edge source="engine.Engine" target="object">
+      <point x="0.0" y="-45.0" />
+      <point x="2497.0" y="615.0" />
+      <point x="1591.0" y="615.0" />
+      <point x="32.625" y="292.5" />
+    </edge>
+    <edge source="engine_component.sternman_engine.SternmanEngine" target="engine.Engine">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="45.0" />
+    </edge>
+    <edge source="engine_component.capulet_engine.CapuletEngine" target="engine.Engine">
+      <point x="0.0" y="-71.5" />
+      <point x="3096.0" y="854.0" />
+      <point x="2558.0" y="854.0" />
+      <point x="61.0" y="45.0" />
+    </edge>
+    <edge source="carfactory.CarFactory" target="object">
+      <point x="1.1368683772161603E-13" y="-97.0" />
+      <point x="2896.0" y="605.0" />
+      <point x="1656.25" y="605.0" />
+      <point x="97.875" y="292.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="2062.0" y="274.9999999999998" />
+  <SelectedNodes>
+    <node>carfactory.CarFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+
